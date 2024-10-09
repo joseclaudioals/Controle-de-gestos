@@ -1,4 +1,4 @@
-# realizando um teste para entender o código 
+
 
 import cv2
 import mediapipe as mp
@@ -38,6 +38,7 @@ while True:
     cv2.imshow("Hand Tracking", frame)
     if cv2.waitKey(1) & 0xFF == ord("q"):
         break
-
+    #fjiohsefklfejiopserkojfwecpouj
+    
 cap.release()
 cv2.destroyAllWindows()
