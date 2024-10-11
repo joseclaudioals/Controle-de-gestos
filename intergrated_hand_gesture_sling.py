@@ -6,7 +6,7 @@ import math
 
 # Inicializando MediaPipe para detecção de mãos
 mp_hands = mp.solutions.hands
-hands = mp_hands_gesture hands(max_num_hands=2)  # Captura de uma mão
+hands = mp_hands.Hands(max_num_hands=1)  # Captura de uma mão
 mp_drawing = mp.solutions.drawing_utils
 
 # Captura de vídeo (webcam)
